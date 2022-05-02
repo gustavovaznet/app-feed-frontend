@@ -1,5 +1,6 @@
-function App() {
-  return <button className="bg-yellow-500">Test</button>
-}
+import { Widget } from "./components/Widget";
 
-export default App
+
+export function App() {
+  return <Widget />
+}
