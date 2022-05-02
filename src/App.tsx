@@ -1,3 +1,6 @@
+//APP
+
+//IMPORTING
 import { Widget } from "./components/Widget";
 
 
