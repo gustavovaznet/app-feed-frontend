@@ -1,3 +1,6 @@
+//LOADING COMPONENT
+
+//IMPORTING
 import { CircleNotch } from "phosphor-react";
 
 

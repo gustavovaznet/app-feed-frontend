@@ -1,11 +1,17 @@
+//WIDGETFORM INDEX FILE
+
+//IMPORTING
+import { useState } from "react";
+//ASSETS
 import bugImageUrl from '../../assets/bug.svg';
 import ideaImageUrl from '../../assets/idea.svg';
 import thoughtImageUrl from '../../assets/thought.svg';
-import { useState } from "react";
+//STEP COMPONENTS
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
 import { FeedbackContentStep } from './Steps/FeedbackContentStep';
 import { FeedbackSuccessStep } from './Steps/FeedbackSuccessStep';
 
+//FEEDBACK TYPES
 export const feedbackTypes = {
     BUG:{
         title: 'Problem',
@@ -36,6 +42,7 @@ export function WidgetForm(){
     const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null);
     const [feedbackSent, setFeedbackSent] = useState(false);
 
+    //RESTART FEEDBACK
     function handleRestartFeedback(){
         setFeedbackType(null);
         setFeedbackSent(false);
@@ -64,6 +71,7 @@ export function WidgetForm(){
             <footer className="text-xs text-neutral-400">
                 Created by <a className="underline underline-offset-2" href="#">Test</a>
             </footer>
+
         </div>
     )
 }

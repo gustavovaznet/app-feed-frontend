@@ -1,5 +1,9 @@
-import { Popover } from '@headlessui/react'
-import { X } from 'phosphor-react'
+//CLOSE BUTTON COMPONENT
+
+
+//IMPORTING
+import { Popover } from '@headlessui/react';
+import { X } from 'phosphor-react';
 
 export function CloseButton(){
     return(

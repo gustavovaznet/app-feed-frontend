@@ -1,6 +1,10 @@
+//FEEDBACK TYPE STEP
+
+//IMPORTING
 import { FeedbackType, feedbackTypes } from ".."
 import { CloseButton } from "../../CloseButton";
 
+//FEEDBACK PROPS
 interface FeedbackTypeStepProps {
     onFeedbackTypeChanged: (type: FeedbackType) => void;
 }
